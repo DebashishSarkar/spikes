@@ -1,0 +1,13 @@
+Launch a new devtest labs instance in Azure
+Create Hub VM (D2s_V3, Std SSD)
+** order of artifacts matter in hub, node**
+choco install ojdkbuild11
+selenium Hub (https://github.com/Azure/azure-devtestlab/tree/master/Artifacts/windows-seleniumgrid-hub#selenium-grid-hub)
+Attach public ip (dynamic) to NIC
+
+Create Node VM(D42_V3, Std SSD)
+choco install ojdkbuild11
+selenium Nodehttps://github.com/Azure/azure-devtestlab/tree/master/Artifacts/windows-seleniumgrid-node#selenium-grid-node 
+chrome
+specify hub ip address
+
