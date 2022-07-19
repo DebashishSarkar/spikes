@@ -1,0 +1,31 @@
+Checks Entity Diagram, Entity Framework, Swagger documentation and API design, MVC API basic implementation
+
+Targets: Junior Developer
+
+E-Commerce App
+---
+Products
+> Price (Dynamic)
+> Image (Static)
+> Description (Static)
+> Availability (Dynamic)
+Customers
+> Address
+> Name
+Cart
+> Each customer has 1 cart
+Orders
+> Each customer can place multiple orders which needs to be shipped to their address
+
+Design Entity Diagram
+Write Code First EF layer which creates schema and populates master data (if any)
+API Design on swagger
+Get Product Details
+Add Product
+Get Product Price
+Get Product Availability
+Get Customer Details
+Add product (qty) to cart
+Place an order
+
+Write implementation of 1 Get and 1 Post method so that we can test it from Postman
